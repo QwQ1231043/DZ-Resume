@@ -55,7 +55,7 @@
           </div>
         </section>
         <section>
-          <h2 class="h4 section-title">2025 Summer Research</h2>
+          <h2 class="h4 section-title">Project</h2>
           <div
               class="project-item row g-3 align-items-start mb-4"
               v-for="(project, index) in projects3"
