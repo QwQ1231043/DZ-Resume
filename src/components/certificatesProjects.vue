@@ -2,7 +2,7 @@
   <div ref="container" class="vh-100 d-flex flex-column" :class="{ 'dark-mode': isDarkMode }">
     <!-- 顶部导航栏 -->
     <header class="top-bar py-3 text-center fw-bold fs-4">
-      Certificates & Projects
+      Certificates
     </header>
 
     <!-- 主要内容 -->
@@ -19,16 +19,7 @@
             </div>
           </div>
         </section>
-        <section>
-          <h2 class="h4 section-title">Projects</h2>
-          <div class="project-item mb-4" v-for="(project, index) in projects" :key="index">
-            <img :src="project.image" :alt="project.title" class="project-image" />
-            <div class="project-text">
-              <h3>{{ project.title }}</h3>
-              <p class="text-muted">{{ project.description }}</p>
-            </div>
-          </div>
-        </section>
+
       </div>
 
       <!-- 右侧 - 头像 + 导航按钮 -->
@@ -38,7 +29,8 @@
         </div>
         <div class="nav-links mt-4">
           <router-link class="custom-btn" to="/">Home</router-link>
-          <router-link class="custom-btn" to="/certificates">Certificates & Projects</router-link>
+          <router-link class="custom-btn" to="/certificates">Certificates</router-link>
+          <router-link class="custom-btn" to="/project">Projects</router-link>
         </div>
       </div>
     </div>
@@ -60,7 +52,7 @@ const certificates = ref([
 ]);
 
 const projects = ref([
-  { title: "Music Website", description: "Here is a link to my music website", image: cert1 },
+  { title: "Wind Tunnel Building", description: "Over 2025 summer, I completed a summer research about building a wind tunnel", image: cert1 },
 ]);
 
 onMounted(() => {

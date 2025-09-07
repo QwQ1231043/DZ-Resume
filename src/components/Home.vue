@@ -11,41 +11,40 @@
       <div class="col-md-7 p-4 text-content">
         <section class="mb-4">
           <h2 class="h4 section-title">About Me</h2>
-          <p>I am an undergraduate student in the engineering department with a strong passion for data science, programming, and software development.
-            My academic and research interests are centered around artificial intelligence, web development, and software engineering. Currently,
-            I am pursuing my studies at Greenville University and am enrolled in a 3+2/3+3 program in collaboration with St. Washington University. I plan to transition into
-            a computer science major in the upcoming fall semester.
-            My technical foundation lies in Java and Python, and I am particularly interested in AI development. Additionally,
-            I strive to gain a comprehensive understanding of software architecture and backend systems, as I find these areas intellectually stimulating.
-            To complement my skill set, I have independently studied frontend technologies, including JavaScript, CSS, and HTML, to enhance my ability to design and develop web applications.
-            Besides, I study the Django and Springboot as the backend development, so I am able to complete a website by myself
-            Originally from China, I completed my high school education at Maple Leaf International School. I was deeply engaged in engineering-related projects,
-            fostering my curiosity in physics, chemistry, and, most significantly, programming and artificial intelligence.
-            I strongly believe in the values of humility, passion, and optimism. I am committed to continuous learning, never shy away from challenges,
-            and approach my academic journey and future career with unwavering determination and resilience. My dream career is to be a full-stack developer.</p>
+          <p>I am a Computer Science student at Washington University in St. Louis, currently enrolled in the 3+3 dual-degree program that leads to both a bachelor’s and master’s degree. My academic and career interests focus on software engineering, full-stack web development, and artificial intelligence.
+
+            I have hands-on experience building web applications, including projects developed with Django, Spring Boot, and Vue.js, complemented by frontend technologies such as HTML, CSS, and JavaScript. My technical foundation also includes Java and Python, with additional exposure to machine learning (Scikit-learn, NumPy, Pandas) and deployment using AWS, Cloudflare, and Linux.
+
+            Beyond coursework, I participated in a funded summer research project on wind tunnel design, where I contributed to CAD modeling, software-based analysis, and collaborative planning. This experience strengthened my ability to work in interdisciplinary teams and tackle engineering challenges.
+
+            My long-term goal is to become a full-stack developer specializing in AI-driven applications, combining technical expertise with creativity to build impactful software solutions.</p>
         </section>
 
         <section class="mb-4">
           <h2 class="h4 section-title">Contact Information</h2>
-          <p>Email: <strong>dongyao.zheng8133@panthers.greenville.edu</strong></p>
-          <p>Location: Greenville, Illinois, 62246</p>
+          <p>Email: <strong>dongyao@wustl.edu</strong></p>
+          <p>Location: Missouri Saint Louis Valley Park 63088-1631</p>
         </section>
-
-        <section class="mb-4">
-          <h2 class="h4 section-title">Education</h2>
-          <p><strong>Greenville University</strong></p>
-          <p class="text-muted">Bachelor Degree (2023 - 2027)</p>
-        </section>
-
         <section>
           <h2 class="h4 section-title">Skills</h2>
           <ul class="list-unstyled">
-            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Frontend: HTML, CSS, JS, Vue, Bootstrap</li>
-            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Backend: Django, Spring Boot</li>
-            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Deployment: AWS, Cloudflare, Linux</li>
-            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Machine Learning: Scikit-learn</li>
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Frontend: HTML, CSS, JavaScript (ES6+), Vue.js, Bootstrap</li>
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Backend: Django, Spring Boot, REST API design</li>
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Deployment & Tools: AWS, Cloudflare, Linux, Git/GitHub</li>
+            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Data & Machine Learning: Scikit-learn, SQL</li>
           </ul>
         </section>
+        <section class="mb-4">
+          <h2 class="h4 section-title">Education & Experience</h2>
+          <p><strong>Greenville University</strong></p>
+          <p class="text-muted">Bachelor Degree (2023 - 2027)</p>
+          <p><strong>Washington University in St.Louis</strong></p>
+          <p class="text-muted">Master Degree (2025 - 2028)</p>
+          <p><strong>Math Grader</strong></p>
+          <p class="text-muted">Help assisting mathematics professor and grading assignments</p>
+        </section>
+
+
       </div>
 
       <!-- 右侧 - 头像 + 导航按钮 -->
@@ -55,7 +54,8 @@
         </div>
         <div class="nav-links mt-4">
           <router-link class="custom-btn" to="/">Home</router-link>
-          <router-link class="custom-btn" to="/certificates">Certificates & Projects</router-link>
+          <router-link class="custom-btn" to="/certificates">Certificates</router-link>
+          <router-link class="custom-btn" to="/project">Projects</router-link>
         </div>
       </div>
     </div>
